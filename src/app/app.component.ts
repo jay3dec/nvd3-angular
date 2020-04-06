@@ -8,9 +8,11 @@ declare let d3: any;
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit {
+  
   title = 'nvd3-graph';
   options;
   data;
+
   ngOnInit() {
     this.options = {
       chart: {
